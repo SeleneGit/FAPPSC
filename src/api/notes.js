@@ -6,3 +6,4 @@ export const createNotesRequest = (note) => axios.post("/getNote", note);
 export const updateNotesRequest = (id, note) =>
   axios.put(`/getNote/${id}`, note);
 export const deleteNotesRequest = (id) => axios.delete(`/getNote/${id}`);
+//commit
