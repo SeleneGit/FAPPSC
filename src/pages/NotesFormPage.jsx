@@ -23,8 +23,8 @@ function NotesFormPage() {
       updateNote(params.id, data);
     } else {
       createNotes(data);
-      navigate("/notes");
     }
+    navigate("/notes");
   });
   return (
     <div className="bg-zinc-800 max-w-md w-full p-10 rounded-md flex justify-self-start items-center ">

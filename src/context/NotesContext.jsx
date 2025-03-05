@@ -60,7 +60,7 @@ export function NoteProvider({ children }) {
 
   const updateNote = async (id, note) => {
     try {
-      const res = await updateNotesRequest(note);
+      const res = await updateNotesRequest(id, note);
       console.log(res);
     } catch (error) {
       console.error(error);
